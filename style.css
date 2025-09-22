@@ -211,3 +211,107 @@ display: inline-block;
   border:2px solid rgb(22, 152, 162); 
 }
 /* projects layout end  */
+
+
+/* contact layout start  */
+.contact-container{
+  background-color: #1f242d;
+}
+
+.contact-card-1{
+  background-color: #323946;
+  z-index: 2;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px !important;
+  padding: 10px !important;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+input{
+  background-color: #1f242d;
+  border: none;
+  outline: none;
+  padding-left: 10px !important;
+  padding: 10px;
+  border-radius: 10px;
+  width: 48%;
+  color: white !important;
+}
+input::placeholder{
+  color: white !important;
+}
+
+  textarea{
+  border-radius: 10px;
+  background-color: #1f242d;
+  outline: none;
+  border: none;
+  width: 100%;
+  text-indent: 10px;
+  color: white;
+
+}
+textarea::placeholder{
+  color: white;
+}
+
+/* card-2 */
+.contact-card-2{
+  background-color: #323946;
+  border-radius: 15px;
+}
+
+.form-btn{
+width: 100%;
+background-color: #0ef;
+padding: 10px;
+text-decoration: none;
+border: none;
+border-radius: 15px;
+font-size: 20px;
+color: white;
+font-weight: 600;
+transition: 0.4s ease;
+display: inline-block;
+}
+.form-btn:hover{
+  box-shadow: 0 0 5px 5px #0ef;
+  border:2px solid rgb(22, 152, 162); 
+}
+
+.social{
+  background-color: #323946;
+  border-radius: 15px;
+}
+
+/* contact layout end  */
+/* footer layout start  */
+footer{
+    background-color: #323946;
+}
+.footer-button {
+  width: 120px;
+  background-color: #0ef;
+  padding: 10px;
+  text-decoration: none;
+  border: 2px solid transparent; 
+  border-radius: 15px;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  display: inline-block;
+  transition: 0.3s ease; 
+}
+
+.footer-button:hover {
+  box-shadow: 0 0 5px 5px #0ef;
+  border: 2px solid rgb(22, 152, 162); 
+}
+
+
+
