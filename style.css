@@ -176,3 +176,38 @@ transition: 0.4s ease;
   border:2px solid rgb(22, 152, 162); 
 }
 /* technologies layout end  */
+
+/* projects layout start  */
+.projects-container{
+  background-color: #323946;
+}
+.project-card{
+  background-color: #1f242d !important;
+  z-index: 2;
+  border-radius: 15px;
+  text-align: center;
+  transition: 0.4s ease;
+  width: 100%;
+}
+.project-card:hover{
+    box-shadow: 0 0 5px 5px #0ef;
+  border:2px solid rgb(22, 152, 162); 
+}
+.project-btn{
+width: 120px;
+background-color: #0ef;
+padding: 10px;
+text-decoration: none;
+border: none;
+border-radius: 15px;
+font-size: 20px;
+color: white;
+font-weight: 600;
+transition: 0.4s ease;
+display: inline-block;
+}
+.project-btn:hover{
+  box-shadow: 0 0 5px 5px #0ef;
+  border:2px solid rgb(22, 152, 162); 
+}
+/* projects layout end  */
