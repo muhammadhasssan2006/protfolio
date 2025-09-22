@@ -104,12 +104,11 @@ border: none;
 border-radius: 25px;
 font-size: 19px;
 font-weight: 400;
+transition: 0.4s ease;
 }
 .batn:hover{
   box-shadow: 0 0 5px 5px #0ef;
   border:2px solid rgb(22, 152, 162); 
-
-
 }
 
 .about-img img {
@@ -135,7 +134,45 @@ font-weight: 400;
   background-color: #2e3440;
   z-index: 2;
   border-radius: 15px;
-  border-color: #0ef !important;
   text-align: center;
+  transition: 0.4s ease;
+}
+.services-card:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 25px 10px #0ef;
 }
 /* services layout end  */
+
+/* technologies layout start  */
+.technologies-container{
+    background-color: #2e3440;
+
+}
+.technologies-card{
+  background-color: #323946;
+  z-index: 2;
+  border-radius: 15px;
+  text-align: center;
+  transition: 0.4s ease;
+  width: 100%;
+  }
+  .technologies-card:hover{
+  transform: scale(1.01);
+  box-shadow: 0 0 20px 5px #0ef;
+}
+
+.tech-btn{
+width: 150px;
+background-color: #0ef;
+padding: 10px;
+border: none;
+border-radius: 15px;
+font-size: 19px;
+font-weight: 400;
+transition: 0.4s ease;
+}
+.tech-btn:hover{
+  box-shadow: 0 0 5px 5px #0ef;
+  border:2px solid rgb(22, 152, 162); 
+}
+/* technologies layout end  */
