@@ -161,20 +161,27 @@ transition: 0.4s ease;
   box-shadow: 0 0 20px 5px #0ef;
 }
 
-.tech-btn{
-width: 150px;
-background-color: #0ef;
-padding: 10px;
-border: none;
-border-radius: 15px;
-font-size: 19px;
-font-weight: 400;
-transition: 0.4s ease;
+.tech-btn {
+  width: 160px;           /* default width */
+  max-width: 90%;         /* never exceed screen width */
+  background-color: #0ef;
+  padding: 10px 20px;     /* horizontal + vertical padding */
+  border: none;
+  border-radius: 15px;
+  font-size: 19px;
+  font-weight: 400;
+  color: white;
+  transition: 0.4s ease;
+  cursor: pointer;
 }
-.tech-btn:hover{
+
+/* Hover effect */
+.tech-btn:hover {
   box-shadow: 0 0 5px 5px #0ef;
-  border:2px solid rgb(22, 152, 162); 
+  border: 2px solid rgb(22, 152, 162);
 }
+
+
 /* technologies layout end  */
 
 /* projects layout start  */
@@ -318,5 +325,49 @@ footer{
 @media (max-width: 1024px) {
   input {
     width: 100%;
+  }
+}
+
+/* tech-btn start   */
+/* Tablet and below */
+/* Tablet and below */
+@media (max-width: 768px) {
+  .tech-btn {
+    width: 140px;
+    font-size: 17px;
+    padding: 9px 18px;
+  }
+}
+@media (max-width: 557px) {
+  .tech-btn {
+    width: 120px;
+    font-size: 14px;
+    padding: 8px 20px;
+  }
+}
+@media (max-width: 548px) {
+  .tech-btn {
+    /* width: 140px; */
+    font-size: 12px;
+    padding: 8px 15px;
+  }
+}
+
+/* Small phones */
+@media (max-width: 481px) {
+  .tech-btn {
+    width: 120px;
+    font-size: 12px;
+    padding: 8px 10px;
+  }
+}
+
+/* Very small phones / extra small */
+@media (max-width: 385px) {
+  .tech-btn {
+    width: 120px;
+    font-size: 12px;
+    color: white;
+    padding: 7px 1px;
   }
 }
